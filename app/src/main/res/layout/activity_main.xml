@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.WanderingCubes"
+        android:layout_width="71dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="150dp"
+        app:SpinKit_Color="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="132dp"
+        android:layout_height="202dp"
+
+
+
+        android:gravity="center_horizontal"
+
+        android:text="This is  the main Activity where you will see the loading animation"
+
+
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+</LinearLayout>
